@@ -1,0 +1,19 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../assets/img/MassEffect.jpg) center / cover;
+    max-width: 60%;
+    margin: 20px auto;
+    border-radius: 40px;
+    padding: 10px;
+    box-shadow: 0 2px 3px black;
+
+    img {
+        max-width: 100px;
+    }
+    h1 {
+        color: $color-2;
+        margin-left: 10px;
+    }
+}

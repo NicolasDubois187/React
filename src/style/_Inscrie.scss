@@ -1,0 +1,13 @@
+.inscription {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+
+    label {
+        margin: 10px auto;
+    }
+    #submit {
+        margin: 10px auto 0;
+        width: 100px;
+    }
+}

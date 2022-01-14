@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "font-1";
+    src: url(../assets/font/JosefinSans-VariableFont_wght.ttf);
+}
+li {
+    list-style: none;
+}
+
+$font-1: "font-1", sans-serif;
+
+$color-1: rgb(56, 170, 159);
+$color-2: rgb(245, 43, 21);
+$color-3: black;
+$white: rgb(241, 232, 232);
+
+
+
+body {
+    background-color: $white;
+    font-family: $font-1;
+   
+}
